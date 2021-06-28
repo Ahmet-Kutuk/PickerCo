@@ -1,0 +1,17 @@
+.try-section {
+  .picker-form {
+    background-color: lightcyan;
+    padding: 25px;
+    @media (max-width: 500px) {
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
+  .picker-input {
+    width: 960px;
+    box-shadow: 10px 10px 10px 10px rgba(37, 99, 235, 0.1);
+    @media (max-width: 500px) {
+      width: 300px;
+    }
+  }
+}
