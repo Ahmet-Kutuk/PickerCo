@@ -2,7 +2,10 @@ import React from 'react';
 import '../../Styles/Compoments/Footer/Footer.scss';
 function Footer() {
   return (
-    <div className="footer bg-blue-400 p-2 mt-20 flex justify-around items-center">
+    <div
+      id="contact"
+      className="footer bg-blue-400 p-2 mt-20 flex justify-around items-center"
+    >
       <div className="social flex">
         <a href="https://www.github.com/Ahmet-kutuk">
           <i className="fab fa-github-square text-white text-5xl"></i>

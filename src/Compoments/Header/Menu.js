@@ -4,13 +4,13 @@ function Menu() {
   return (
     <div className="flex mt-6 mr-4 md:mt-9 self-end lg:mr-48 ">
       <div className="menu justify-self-end" style={{ color: '#1F3F68' }}>
-        <a href="sf" className="mr-7">
+        <a href="#about" className="mr-7">
           About
         </a>
-        <a href="dsf" className="mr-7">
+        <a href="#try" className="mr-7">
           Try
         </a>
-        <a href="sdf" className="">
+        <a href="#contact" className="">
           Contact
         </a>
       </div>
