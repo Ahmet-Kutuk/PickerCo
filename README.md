@@ -12,6 +12,8 @@
  * Axios
  * TailwindCss
  * Scss
+ 
+ [LiveDemo](https://pickerco-ahmet-kutuk.vercel.app/)
 
 ## How to Run a Project
 
