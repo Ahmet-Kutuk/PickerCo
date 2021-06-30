@@ -8,7 +8,8 @@ function Picker() {
   const [allComments, setAllComments] = useState([]);
 
   const rePick = () => {
-    return setIsOpen(false);
+    setIsOpen(false);
+    setAllComments([]);
   };
   const handleChange = (e) => {
     return setVideoId(e.target.value);
