@@ -13,6 +13,7 @@
  * TailwindCss
  * Scss
  
+ ## Demo
  [LiveDemo](https://pickerco-ahmet-kutuk.vercel.app/)
 
 ## How to Run a Project
