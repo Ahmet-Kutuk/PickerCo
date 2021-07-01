@@ -40,12 +40,11 @@ function Cards() {
         <div className="card about mt-10 lg:mt-0 lg:ml-10 w-96 h-96 flex items-center flex-col p-2">
           <img src={Item4} className="w-52" alt="about-item1" />
           <h4 className="text-blue-900 font-bold text-2xl mt-8">
-            Whats Youtube Video ID?
+            Whats Youtube Video URL?
           </h4>
           <p className="text-blue-900 font-light mt-8 text-lg px-2">
-            Youtube video id are the characters at the end of the youtube video
-            link. For example, "https://www.youtube.com/watch?v=5-MT5zeY6CU"
-            Youtube ID = 5-MT5zeY6CU
+            Youtube url is the youtube video link in your search field. Example
+            Youtube URL = "https://www.youtube.com/watch?v=5-MT5zeY6CU"
           </p>
         </div>
       </div>

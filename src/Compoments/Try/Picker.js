@@ -41,7 +41,7 @@ function Picker() {
           <input
             onChange={(e) => handleChange(e)}
             type="text"
-            placeholder="Example Youtube ID = 5-MT5zeY6CU"
+            placeholder="Enter Youtube URL"
             className="rounded-lg px-2 picker-input py-5 outline-none placeholder-blue-500 "
           />
           <button
