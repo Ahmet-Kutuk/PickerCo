@@ -12,8 +12,20 @@ function Picker() {
     setAllComments([]);
   };
   const handleChange = (e) => {
-    return setVideoId(e.target.value);
+    if (
+      e.target.value.includes('https://www.youtube.com') ||
+      e.target.value.includes('https://www.youtu.be') ||
+      e.target.value.includes('https://youtu.be')
+    ) {
+      const youtubeURL = new URL(e.target.value);
+      const videoId =
+        youtubeURL.searchParams.get('v') ?? youtubeURL.pathname.slice(1);
+      return setVideoId(videoId);
+    } else {
+      return null;
+    }
   };
+
   const getComments = () => {
     setTimeout(() => {
       // eslint-disable-next-line no-unused-vars
